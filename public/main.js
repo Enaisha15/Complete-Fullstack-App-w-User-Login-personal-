@@ -1,3 +1,4 @@
+// Collaborated with team Hayden to successfully complete the project 
 document.querySelector('#enter').addEventListener('click', addTask)
 let buttonArray = document.querySelectorAll('.delete')
 buttonArray.forEach(button => {
@@ -39,3 +40,4 @@ function deleteTask(e) {
       }
     })
 }
+// Collaborated with team Hayden to successfully complete the project 
