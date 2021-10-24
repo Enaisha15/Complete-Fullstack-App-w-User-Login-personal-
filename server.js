@@ -1,3 +1,4 @@
+//Collaborated with team Hayden to successfully complete the project 
 const express = require('express')
 var passport = require('passport');
 var flash    = require('connect-flash');
@@ -33,6 +34,7 @@ app.listen(1000, () => {
 });  
 
 require('./config/passport')(passport);
+// co
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended: true}))
@@ -55,3 +57,4 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
+// Collaborated with team Hayden to successfully complete the project 
